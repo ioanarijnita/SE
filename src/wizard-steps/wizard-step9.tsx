@@ -8,8 +8,11 @@ import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import Delivery from "../assets/delivery.png";
 import PlantBased from "../assets/plant-based.png";
+import { useContext } from 'react';
+import { AnswersContext } from '../App';
 
 export function WizardStep9(props: any) {
+    const answersContext = useContext(AnswersContext);
 
     return <div style={{ display: 'flex', flexDirection: 'column', backgroundColor: '#f0d4c4', borderBottomRightRadius: 24, borderTopRightRadius: 24, height: 546 }}>
         <div style={{ width: 450 }}>
@@ -22,8 +25,14 @@ export function WizardStep9(props: any) {
                     name="radio-buttons-group"
                     style={{ display: "flex", flexDirection: "row", justifyContent: 'space-around', width: 300, marginTop: 24 }}
                 >
-                    <FormControlLabel value={true} control={<Radio />} label="Yes" onClick={() => props.goToStep(10)} />
-                    <FormControlLabel value={false} control={<Radio />} label="No" onClick={() => props.goToStep(10)} />
+                    <FormControlLabel value={true} control={<Radio />} label="Yes" onClick={() => {
+                        answersContext?.setAnswers({ ...answersContext.answers, delivery: true })
+                        props.goToStep(10);
+                    }} />
+                    <FormControlLabel value={false} control={<Radio />} label="No" onClick={() => {
+                        answersContext?.setAnswers({ ...answersContext.answers, delivery: false })
+                        props.goToStep(10);
+                    }} />
                 </RadioGroup>
             </FormControl>
         </div>

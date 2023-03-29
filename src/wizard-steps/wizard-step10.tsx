@@ -10,8 +10,11 @@ import Vegan from "../assets/vegan.png";
 import PlantBased from "../assets/plant-based.png";
 import VeganGif from "../assets/vegan.gif";
 import Star from "../assets/star.png";
+import { useContext } from 'react';
+import { AnswersContext } from '../App';
 
 export function WizardStep10(props: any) {
+    const answersContext = useContext(AnswersContext);
     const StarEl = () => <img src={Star} style = {{width: 20, height: 20, marginRight: 8}}></img>;
 
     return <div style={{ display: 'flex', flexDirection: 'column', backgroundColor: '#f0d4c4', borderBottomRightRadius: 24, borderTopRightRadius: 24, height: 546 }}>
@@ -27,16 +30,31 @@ export function WizardStep10(props: any) {
                     style={{ display: "flex", flexDirection: "row", width: 400, justifyContent: "center", marginTop: 24, }}
                 >
                     <div style = {{display: "flex", justifyContent: "space-around" }}>
-                    <FormControlLabel value={1} control={<Radio />} label={<><StarEl /></>} onClick={() => props.goToStep(11)} />
-                    <FormControlLabel value={2} control={<Radio />} label={<><StarEl /> <StarEl /></>} onClick={() => props.goToStep(11)} />
-                    <FormControlLabel value={3} control={<Radio />} label={<><StarEl/><StarEl/><StarEl/></>} onClick={() => props.goToStep(11)} />
+                    <FormControlLabel value={1} control={<Radio />} label={<><StarEl /></>} onClick={() => {
+                        answersContext?.setAnswers({ ...answersContext.answers, rating: 1 })
+                        props.goToStep(11);
+                    }} />
+                    <FormControlLabel value={2} control={<Radio />} label={<><StarEl /> <StarEl /></>} onClick={() => {
+                        answersContext?.setAnswers({ ...answersContext.answers, rating: 2 })
+                        props.goToStep(11);
+                    }} />
+                    <FormControlLabel value={3} control={<Radio />} label={<><StarEl/><StarEl/><StarEl/></>} onClick={() => {
+                        answersContext?.setAnswers({ ...answersContext.answers, rating: 3 })
+                        props.goToStep(11);
+                    }} />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <div>
-                    <FormControlLabel value={4} control={<Radio />} label= {<><StarEl/><StarEl/><StarEl/><StarEl/></>}onClick={() => props.goToStep(11)} />
-                    <FormControlLabel value={5} control={<Radio />} label={<><StarEl/><StarEl/><StarEl/><StarEl/><StarEl/></>} onClick={() => props.goToStep(11)} />
+                    <FormControlLabel value={4} control={<Radio />} label= {<><StarEl/><StarEl/><StarEl/><StarEl/></>}onClick={() => {
+                        answersContext?.setAnswers({ ...answersContext.answers, rating: 4 })
+                        props.goToStep(11);
+                    }} />
+                    <FormControlLabel value={5} control={<Radio />} label={<><StarEl/><StarEl/><StarEl/><StarEl/><StarEl/></>} onClick={() => {
+                        answersContext?.setAnswers({ ...answersContext.answers, rating: 5 })
+                        props.goToStep(11);
+                        }} />
                     </div>
                 </RadioGroup>
             </FormControl>

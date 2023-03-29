@@ -1,16 +1,13 @@
-import Food from './../assets/food.png'
 import Button from '@mui/material/Button';
 import { ArrowCircleLeft, ArrowCircleRight } from '@mui/icons-material';
-import Radio from '@mui/material/Radio';
-import RadioGroup from '@mui/material/RadioGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import Sushi from "../assets/sushi.png";
 import Burrito from "../assets/burrito.png";
 import Pizza from "../assets/pizza.png";
 import { InputLabel, Select, OutlinedInput, Box, Chip, MenuItem, SelectChangeEvent, Theme, useTheme } from '@mui/material';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
+import { AnswersContext } from '../App';
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
@@ -42,15 +39,16 @@ function getStyles(name: string, personName: readonly string[], theme: Theme) {
 
 // here should arrive all users, including vegan, vegetarian & meat lovers
 export function WizardStep6(props: any) {
-    const [specific, setSpecific] = useState<string[]>([]);
+    const [specific, setSpecific] = useState<string>();
     const theme = useTheme();
+    const answersContext = useContext(AnswersContext);
     const handleChange = (event: SelectChangeEvent<typeof specific>) => {
         const {
             target: { value },
         } = event;
         setSpecific(
             // On autofill we get a stringified value.
-            typeof value === 'string' ? value.split(',') : value,
+            value
         );
     };
 
@@ -66,24 +64,23 @@ export function WizardStep6(props: any) {
                 <Select
                     labelId="demo-multiple-chip-label"
                     id="demo-multiple-chip"
-                    multiple
                     value={specific}
                     onChange={handleChange}
                     input={<OutlinedInput id="select-multiple-chip" label="Chip" />}
-                    renderValue={(selected) => (
-                        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
-                            {selected.map((value) => (
-                                <Chip key={value} label={value} />
-                            ))}
-                        </Box>
-                    )}
+                    // renderValue={(selected) => (
+                    //     <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
+                    //         {selected.map((value) => (
+                    //             <Chip key={value} label={value} />
+                    //         ))}
+                    //     </Box>
+                    // )}
                     MenuProps={MenuProps}
                 >
                     {specificList.map((spec) => (
                         <MenuItem
                             key={spec}
                             value={spec}
-                            style={getStyles(spec, specific, theme)}
+                            // style={getStyles(spec, specific!, theme)}
                         >
                             {spec}
                         </MenuItem>
@@ -97,13 +94,18 @@ export function WizardStep6(props: any) {
         <div style={{ width: 450, height: 103 }}>
             <div style={{ display: 'flex', alignItems: 'center', marginRight: 15, flexDirection: "row", justifyContent: "space-between" }}>
                 <div style={{ display: "flex", flexDirection: "column" }}>
-                    <Button onClick={() => props.goToStep(5)}>
+                    <Button onClick={() => {
+                        props.goToStep(5);
+                    }}>
                         <ArrowCircleLeft style={{ color: '#c89474', fontSize: 50 }} />
                     </Button>
                     <img src={Burrito} style={{ width: 50, height: 50, position: "relative", left: 20 }} />
                 </div>
                 <div style={{ display: "flex", flexDirection: "column" }}>
-                    <Button onClick={() => props.goToStep(7)}>
+                    <Button onClick={() => {
+                        answersContext?.setAnswers({...answersContext.answers, specific: specific})
+                        props.goToStep(7);
+                    }}>
                         <ArrowCircleRight style={{ color: '#c89474', fontSize: 50 }} />
                     </Button>
                     <img src={Sushi} style={{ width: 50, height: 50, position: 'relative', top: 20 }} />

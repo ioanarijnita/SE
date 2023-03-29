@@ -1,4 +1,3 @@
-import Food from './../assets/food.png'
 import Button from '@mui/material/Button';
 import { ArrowCircleLeft } from '@mui/icons-material';
 import Radio from '@mui/material/Radio';
@@ -7,10 +6,11 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import Money from "../assets/money.png";
-import PlantBased from "../assets/plant-based.png";
-import VeganGif from "../assets/vegan.gif";
+import { useContext } from 'react';
+import { AnswersContext } from '../App';
 
 export function WizardStep7(props: any) {
+    const answersContext = useContext(AnswersContext);
 
     return <div style={{ display: 'flex', flexDirection: 'column', backgroundColor: '#f0d4c4', borderBottomRightRadius: 24, borderTopRightRadius: 24, height: 546 }}>
         <div style={{ width: 450 }}>
@@ -23,10 +23,22 @@ export function WizardStep7(props: any) {
                     name="radio-buttons-group"
                     style={{ display: "flex", flexDirection: "row", width: 300, marginTop: 24 }}
                 >
-                    <FormControlLabel value={50} control={<Radio />} label="Under 50 lei" onClick={() => props.goToStep(8)} />
-                    <FormControlLabel value={100} control={<Radio />} label="50-100 lei" onClick={() => props.goToStep(8)} />
-                    <FormControlLabel value={150} control={<Radio />} label="100-150 lei" onClick={() => props.goToStep(8)} />
-                    <FormControlLabel value={1000} control={<Radio />} label="Above 150 lei" onClick={() => props.goToStep(8)} />
+                    <FormControlLabel value={50} control={<Radio />} label="Under 50 lei" onClick={() => {
+                        answersContext?.setAnswers({ ...answersContext.answers, averageMealPrice: 50 })
+                        props.goToStep(8);
+                    }} />
+                    <FormControlLabel value={100} control={<Radio />} label="50-100 lei" onClick={() => {
+                        answersContext?.setAnswers({ ...answersContext.answers, averageMealPrice: 100 })
+                        props.goToStep(8);
+                    }} />
+                    <FormControlLabel value={150} control={<Radio />} label="100-150 lei" onClick={() => {
+                        answersContext?.setAnswers({ ...answersContext.answers, averageMealPrice: 150 })
+                        props.goToStep(8);
+                    }} />
+                    <FormControlLabel value={200} control={<Radio />} label="Above 150 lei" onClick={() => {
+                        answersContext?.setAnswers({ ...answersContext.answers, averageMealPrice: 200 })
+                        props.goToStep(8);
+                    }} />
                 </RadioGroup>
             </FormControl>
         </div>

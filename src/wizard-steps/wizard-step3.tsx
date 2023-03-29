@@ -1,4 +1,3 @@
-import Food from './../assets/food.png'
 import Button from '@mui/material/Button';
 import { ArrowCircleLeft } from '@mui/icons-material';
 import Radio from '@mui/material/Radio';
@@ -13,6 +12,7 @@ import { useContext } from 'react';
 import { AnswersContext } from '../App';
 
 export function WizardStep3(props: any) {
+    const answersContext = useContext(AnswersContext);
 
     return <div style={{ display: 'flex', flexDirection: 'column', backgroundColor: '#f0d4c4', borderBottomRightRadius: 24, borderTopRightRadius: 24, height: 546 }}>
         <div style={{ width: 450 }}>
@@ -25,8 +25,14 @@ export function WizardStep3(props: any) {
                     name="radio-buttons-group"
                     style={{ display: "flex", flexDirection: "row", justifyContent: "space-around", width: 300, marginTop: 24 }}
                 >
-                    <FormControlLabel value={true} control={<Radio />} label="Yes" onClick = {() => props.goToStep(6)}/>
-                    <FormControlLabel value={false} control={<Radio />} label="No" onClick = {() => props.goToStep(4)} />
+                    <FormControlLabel value={true} control={<Radio />} label="Yes" onClick = {() => {
+                        answersContext?.setAnswers({...answersContext.answers, vegetarian: true})
+                        props.goToStep(6);
+                    }}/>
+                    <FormControlLabel value={false} control={<Radio />} label="No" onClick = {() => {
+                        answersContext?.setAnswers({...answersContext.answers, vegetarian: false})
+                        props.goToStep(4);
+                    }} />
                 </RadioGroup>
             </FormControl>
         </div>

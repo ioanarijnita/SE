@@ -1,4 +1,3 @@
-import Food from './../assets/food.png'
 import Button from '@mui/material/Button';
 import { ArrowCircleLeft } from '@mui/icons-material';
 import Radio from '@mui/material/Radio';
@@ -22,8 +21,12 @@ export function WizardStep4(props: any) {
                     name="radio-buttons-group"
                     style={{ display: "flex", flexDirection: "row", justifyContent: "space-around", width: 300, marginTop: 24 }}
                 >
-                    <FormControlLabel value={true} control={<Radio />} label="Yes" onClick = {() => props.goToStep(5)} />
-                    <FormControlLabel value={false} control={<Radio />} label="No" onClick = {() => props.goToStep(6)} />
+                    <FormControlLabel value={true} control={<Radio />} label="Yes" onClick = {() => {
+                        props.goToStep(5);
+                    }} />
+                    <FormControlLabel value={false} control={<Radio />} label="No" onClick = {() => {
+                        props.goToStep(6);
+                    }} />
                 </RadioGroup>
             </FormControl>
         </div>

@@ -13,16 +13,27 @@ import { WizardStep9 } from './wizard-steps/wizard-step9';
 import { WizardStep10 } from './wizard-steps/wizard-step10';
 import { WizardStep11 } from './wizard-steps/wizard-step11';
 import { WizardStep12 } from './wizard-steps/wizard-step12';
+import { RestaurantType } from './inference/inference';
 
-type Answers = {
-  vegan: boolean;
+export type Answers = {
+  vegan?: boolean;
+  vegetarian?: boolean;
+  meatType?: string[];
+  specific?: string;
+  averageMealPrice?: number;
+  neighbourhood?: string;
+  delivery?: boolean;
+  rating?: number;
+  outsideSeating?: boolean;
 }
 
 export const AnswersContext = createContext<{ answers?: Answers, setAnswers: (answer: Answers) => void } | null>(null);
+export const ResultContext = createContext<{ result?: RestaurantType, setResult: (restaurant: RestaurantType) => void } | null>(null);
 
 function App() {
   const [isOnFirstPage, setIsOnFirstPage] = useState(true);
   const [answers, setAnswers] = useState<Answers>();
+  const [result, setResult] = useState<RestaurantType>();
 
   return (
     <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', height: "100%", position: 'absolute', width: "100%" }}>
@@ -49,20 +60,22 @@ function App() {
         </div>
       </div>
       <AnswersContext.Provider value={{ answers, setAnswers }}>
-        <StepWizard >
-          <WizardStep1 />
-          <WizardStep2 />
-          <WizardStep3 />
-          <WizardStep4 />
-          <WizardStep5 />
-          <WizardStep6 />
-          <WizardStep7 />
-          <WizardStep8 />
-          <WizardStep9 />
-          <WizardStep10 />
-          <WizardStep11 />
-          <WizardStep12 />
-        </StepWizard>
+        <ResultContext.Provider value={{ result, setResult }}>
+          <StepWizard >
+            <WizardStep1 />
+            <WizardStep2 />
+            <WizardStep3 />
+            <WizardStep4 />
+            <WizardStep5 />
+            <WizardStep6 />
+            <WizardStep7 />
+            <WizardStep8 />
+            <WizardStep9 />
+            <WizardStep10 />
+            <WizardStep11 />
+            <WizardStep12 />
+          </StepWizard>
+        </ResultContext.Provider>
       </AnswersContext.Provider>
     </div>
   );

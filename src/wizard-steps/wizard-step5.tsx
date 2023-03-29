@@ -1,16 +1,11 @@
-import Food from './../assets/food.png'
 import Button from '@mui/material/Button';
 import { ArrowCircleLeft, ArrowCircleRight } from '@mui/icons-material';
-import Radio from '@mui/material/Radio';
-import RadioGroup from '@mui/material/RadioGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
-import Meat from "../assets/proteins.png";
-import PlantBased from "../assets/plant-based.png";
 import Fish from "../assets/fish.gif";
 import { InputLabel, Select, OutlinedInput, Box, Chip, MenuItem, SelectChangeEvent, Theme, useTheme } from '@mui/material';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
+import { AnswersContext } from '../App';
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
@@ -46,6 +41,7 @@ function getStyles(name: string, personName: readonly string[], theme: Theme) {
 export function WizardStep5(props: any) {
     const [meatType, setMeatType] = useState<string[]>([]);
     const theme = useTheme();
+    const answersContext = useContext(AnswersContext);
     const handleChange = (event: SelectChangeEvent<typeof meatType>) => {
         const {
             target: { value },
@@ -98,11 +94,16 @@ export function WizardStep5(props: any) {
         <div style={{ width: 450, height: 103 }}>
             <div style={{ display: 'flex', alignItems: 'center', marginRight: 15, flexDirection: "row", justifyContent: "space-between" }}>
                 <div style={{ display: "flex", flexDirection: "column" }}>
-                    <Button onClick={() => props.goToStep(4)}>
+                    <Button onClick={() => {
+                        props.goToStep(4);
+                    }}>
                         <ArrowCircleLeft style={{ color: '#c89474', fontSize: 50 }} />
                     </Button>
                 </div>
-                <Button onClick={() => props.goToStep(6)}>
+                <Button onClick={() => {
+                    answersContext?.setAnswers({...answersContext.answers, meatType: meatType});
+                    props.goToStep(6);
+                }}>
                         <ArrowCircleRight style={{ color: '#c89474', fontSize: 50 }} />
                 </Button>
             </div>

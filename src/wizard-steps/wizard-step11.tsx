@@ -8,8 +8,13 @@ import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import Outdoor from "../assets/outdoor.png";
 import PlantBased from "../assets/plant-based.png";
+import { useContext } from 'react';
+import { AnswersContext, ResultContext } from '../App';
+import { calculateBestOption } from '../inference/inference';
 
 export function WizardStep11(props: any) {
+    const answersContext = useContext(AnswersContext);
+    const resultContext = useContext(ResultContext);
 
     return <div style={{ display: 'flex', flexDirection: 'column', backgroundColor: '#f0d4c4', borderBottomRightRadius: 24, borderTopRightRadius: 24, height: 546 }}>
         <div style={{ width: 450 }}>
@@ -22,8 +27,18 @@ export function WizardStep11(props: any) {
                     name="radio-buttons-group"
                     style={{ display: "flex", flexDirection: "row", justifyContent: 'space-around', width: 300, marginTop: 24 }}
                 >
-                    <FormControlLabel value={true} control={<Radio />} label="Yes" onClick={() => props.goToStep(12)} />
-                    <FormControlLabel value={false} control={<Radio />} label="No" onClick={() => props.goToStep(12)} />
+                    <FormControlLabel value={true} control={<Radio />} label="Yes" onClick={() => {
+                        answersContext?.setAnswers({ ...answersContext.answers, outsideSeating: true });
+                        const generatedRestaurant = calculateBestOption({...answersContext?.answers!, outsideSeating: true});
+                        resultContext?.setResult(generatedRestaurant!);
+                        props.goToStep(12);
+                    }} />
+                    <FormControlLabel value={false} control={<Radio />} label="No" onClick={() => {
+                        answersContext?.setAnswers({ ...answersContext.answers, outsideSeating: false })
+                        const generatedRestaurant = calculateBestOption({...answersContext?.answers!, outsideSeating: false});
+                        resultContext?.setResult(generatedRestaurant!);
+                        props.goToStep(12);
+                    }} />
                 </RadioGroup>
             </FormControl>
         </div>

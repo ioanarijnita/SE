@@ -1,16 +1,11 @@
-import Food from './../assets/food.png'
 import Button from '@mui/material/Button';
 import { ArrowCircleLeft, ArrowCircleRight } from '@mui/icons-material';
-import Radio from '@mui/material/Radio';
-import RadioGroup from '@mui/material/RadioGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import Neighbourhood from "../assets/neighbourhood.png";
-import PlantBased from "../assets/plant-based.png";
-import VeganGif from "../assets/vegan.gif";
 import { InputLabel, Select, OutlinedInput, Box, Chip, MenuItem, SelectChangeEvent, Theme, useTheme } from '@mui/material';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
+import { AnswersContext } from '../App';
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
@@ -53,15 +48,17 @@ function getStyles(name: string, personName: readonly string[], theme: Theme) {
 
 // here should arrive all users, including vegan, vegetarian & meat lovers
 export function WizardStep8(props: any) {
-    const [neighbourhood, setNeighbourhood] = useState<string[]>([]);
+    const [neighbourhood, setNeighbourhood] = useState<string>();
+    const answersContext = useContext(AnswersContext);
     const theme = useTheme();
     const handleChange = (event: SelectChangeEvent<typeof neighbourhood>) => {
         const {
             target: { value },
         } = event;
         setNeighbourhood(
+            value
             // On autofill we get a stringified value.
-            typeof value === 'string' ? value.split(',') : value,
+            // typeof value === 'string' ? value.split(',') : value,
         );
     };
 
@@ -77,24 +74,24 @@ export function WizardStep8(props: any) {
                 <Select
                     labelId="demo-multiple-chip-label"
                     id="demo-multiple-chip"
-                    multiple
+                    // multiple
                     value={neighbourhood}
                     onChange={handleChange}
                     input={<OutlinedInput id="select-multiple-chip" label="Chip" />}
-                    renderValue={(selected) => (
-                        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
-                            {selected.map((value) => (
-                                <Chip key={value} label={value} />
-                            ))}
-                        </Box>
-                    )}
+                    // renderValue={(selected) => (
+                    //     <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
+                    //         {selected.map((value) => (
+                    //             <Chip key={value} label={value} />
+                    //         ))}
+                    //     </Box>
+                    // )}
                     MenuProps={MenuProps}
                 >
                     {neighbourhoods.map((hood) => (
                         <MenuItem
                             key={hood}
                             value={hood}
-                            style={getStyles(hood, neighbourhood, theme)}
+                            // style={getStyles(hood, neighbourhood, theme)}
                         >
                             {hood}
                         </MenuItem>
@@ -113,7 +110,10 @@ export function WizardStep8(props: any) {
                     </Button>
                     {/* <img src={PlantBased} style={{ width: 100, height: 100, position: "relative", bottom: 12 }} /> */}
                 </div>
-                <Button onClick={() => props.goToStep(9)}>
+                <Button onClick={() => {
+                        answersContext?.setAnswers({ ...answersContext.answers, neighbourhood: neighbourhood })
+                    props.goToStep(9);
+                }}>
                         <ArrowCircleRight style={{ color: '#c89474', fontSize: 50 }} />
                     </Button>
                 <img src={Neighbourhood} style={{ width: 130, height: 130, position: 'relative', top: 50}} />
