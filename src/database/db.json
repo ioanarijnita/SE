@@ -1,0 +1,4836 @@
+[
+    {
+        "id": 0,
+        "name": "RESTAURANT 0",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Fish",
+            "Pork",
+            "Beef",
+            "Turkey",
+            "Seafood"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 115,
+        "neighbourhood": "Blascovici",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Sfantul Gheorghe, nr 15"
+    },
+    {
+        "id": 1,
+        "name": "RESTAURANT 1",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Turkey",
+            "Duck",
+            "Pork",
+            "Fish",
+            "Beef",
+            "Chicken",
+            "Seafood",
+            "Lamb"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 154,
+        "neighbourhood": "Balcescu",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Berevoiestilor, nr 33"
+    },
+    {
+        "id": 2,
+        "name": "RESTAURANT 2",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Turkey",
+            "Fish"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 93,
+        "neighbourhood": "Centru",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Parcului, nr 39"
+    },
+    {
+        "id": 3,
+        "name": "RESTAURANT 3",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Pork",
+            "Beef",
+            "Turkey",
+            "Fish",
+            "Seafood"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 34,
+        "neighbourhood": "Girocului",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Baniasa, nr 94"
+    },
+    {
+        "id": 4,
+        "name": "RESTAURANT 4",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Duck",
+            "Chicken",
+            "Fish",
+            "Seafood",
+            "Turkey",
+            "Beef",
+            "Pork"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 199,
+        "neighbourhood": "Dacia",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Sannicolaul Mare, nr 72"
+    },
+    {
+        "id": 5,
+        "name": "RESTAURANT 5",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Duck"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 99,
+        "neighbourhood": "Girocului",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Jozsef Attila, nr 6"
+    },
+    {
+        "id": 6,
+        "name": "RESTAURANT 6",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Pork",
+            "Fish"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 143,
+        "neighbourhood": "Modern",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Fagetului, nr 37"
+    },
+    {
+        "id": 7,
+        "name": "RESTAURANT 7",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Duck",
+            "Beef",
+            "Chicken",
+            "Lamb",
+            "Turkey",
+            "Seafood"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 91,
+        "neighbourhood": "Soarelui",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Timisul de Sus, nr 83"
+    },
+    {
+        "id": 8,
+        "name": "RESTAURANT 8",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Duck",
+            "Pork",
+            "Lamb",
+            "Seafood"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 126,
+        "neighbourhood": "Fabric",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Badea Cartan, nr 39"
+    },
+    {
+        "id": 9,
+        "name": "RESTAURANT 9",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Pork",
+            "Beef",
+            "Seafood",
+            "Chicken",
+            "Turkey",
+            "Lamb"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 173,
+        "neighbourhood": "Soarelui",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Dinu Lipatti, nr 46"
+    },
+    {
+        "id": 10,
+        "name": "RESTAURANT 10",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Fish",
+            "Pork",
+            "Seafood",
+            "Turkey",
+            "Chicken",
+            "Duck",
+            "Lamb"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 103,
+        "neighbourhood": "Aradului",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Luminisului, nr 24"
+    },
+    {
+        "id": 11,
+        "name": "RESTAURANT 11",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Duck",
+            "Seafood",
+            "Lamb",
+            "Fish",
+            "Pork"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 157,
+        "neighbourhood": "Modern",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Donath, nr 6"
+    },
+    {
+        "id": 12,
+        "name": "RESTAURANT 12",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Beef",
+            "Pork",
+            "Duck",
+            "Lamb",
+            "Seafood",
+            "Chicken"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 181,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Decebal, nr 71"
+    },
+    {
+        "id": 13,
+        "name": "RESTAURANT 13",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Turkey",
+            "Fish"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 138,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Pogoanelor, nr 41"
+    },
+    {
+        "id": 14,
+        "name": "RESTAURANT 14",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Duck",
+            "Chicken",
+            "Seafood",
+            "Turkey",
+            "Beef",
+            "Pork"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 118,
+        "neighbourhood": "Freidorf",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Plevnei, nr 48"
+    },
+    {
+        "id": 15,
+        "name": "RESTAURANT 15",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Lamb",
+            "Chicken",
+            "Seafood",
+            "Beef",
+            "Turkey"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 125,
+        "neighbourhood": "Torontalului",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Ionel Teodoreanu, nr 14"
+    },
+    {
+        "id": 16,
+        "name": "RESTAURANT 16",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 77,
+        "neighbourhood": "Blascovici",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Baniasa, nr 71"
+    },
+    {
+        "id": 17,
+        "name": "RESTAURANT 17",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 171,
+        "neighbourhood": "Ronat",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Fagetului, nr 90"
+    },
+    {
+        "id": 18,
+        "name": "RESTAURANT 18",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 161,
+        "neighbourhood": "Ronat",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Horea, nr 73"
+    },
+    {
+        "id": 19,
+        "name": "RESTAURANT 19",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood",
+            "Beef",
+            "Pork",
+            "Duck",
+            "Lamb",
+            "Chicken",
+            "Fish",
+            "Turkey"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 142,
+        "neighbourhood": "Balcescu",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Steaua, nr 78"
+    },
+    {
+        "id": 20,
+        "name": "RESTAURANT 20",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Turkey",
+            "Chicken"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 161,
+        "neighbourhood": "Torontalului",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Fagetului, nr 79"
+    },
+    {
+        "id": 21,
+        "name": "RESTAURANT 21",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Duck",
+            "Chicken",
+            "Beef",
+            "Lamb"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 98,
+        "neighbourhood": "Ronat",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Vaida Voievod, nr 76"
+    },
+    {
+        "id": 22,
+        "name": "RESTAURANT 22",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Seafood",
+            "Beef",
+            "Lamb",
+            "Pork",
+            "Turkey"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 47,
+        "neighbourhood": "Modern",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Victor Babes, nr 28"
+    },
+    {
+        "id": 23,
+        "name": "RESTAURANT 23",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Beef",
+            "Duck",
+            "Pork",
+            "Fish",
+            "Turkey",
+            "Lamb"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 127,
+        "neighbourhood": "Mehala",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Sannicolaul Mare, nr 63"
+    },
+    {
+        "id": 24,
+        "name": "RESTAURANT 24",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Pork",
+            "Lamb",
+            "Fish",
+            "Duck",
+            "Beef",
+            "Seafood",
+            "Turkey"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 65,
+        "neighbourhood": "Freidorf",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Torontalului, nr 71"
+    },
+    {
+        "id": 25,
+        "name": "RESTAURANT 25",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Chicken",
+            "Beef",
+            "Turkey",
+            "Pork",
+            "Fish"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 195,
+        "neighbourhood": "Torontalului",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Petru Maior, nr 48"
+    },
+    {
+        "id": 26,
+        "name": "RESTAURANT 26",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Fish",
+            "Chicken",
+            "Pork"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 42,
+        "neighbourhood": "Blascovici",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Stinca, nr 68"
+    },
+    {
+        "id": 27,
+        "name": "RESTAURANT 27",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Beef",
+            "Lamb",
+            "Duck"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 34,
+        "neighbourhood": "Torontalului",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Coriolan Brediceanu, nr 55"
+    },
+    {
+        "id": 28,
+        "name": "RESTAURANT 28",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Duck"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 157,
+        "neighbourhood": "Aradului",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Vaida Voievod, nr 56"
+    },
+    {
+        "id": 29,
+        "name": "RESTAURANT 29",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Duck",
+            "Turkey"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 144,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Poienelor, nr 62"
+    },
+    {
+        "id": 30,
+        "name": "RESTAURANT 30",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Beef",
+            "Chicken",
+            "Fish",
+            "Seafood",
+            "Lamb"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 44,
+        "neighbourhood": "Dacia",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Papiu Ilarian, nr 49"
+    },
+    {
+        "id": 31,
+        "name": "RESTAURANT 31",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Chicken",
+            "Duck",
+            "Fish",
+            "Pork",
+            "Turkey",
+            "Beef"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 100,
+        "neighbourhood": "Blascovici",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Lacramioarei, nr 26"
+    },
+    {
+        "id": 32,
+        "name": "RESTAURANT 32",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Fish",
+            "Seafood",
+            "Chicken",
+            "Turkey",
+            "Pork",
+            "Beef",
+            "Duck"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 170,
+        "neighbourhood": "Soarelui",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Armoniei, nr 75"
+    },
+    {
+        "id": 33,
+        "name": "RESTAURANT 33",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Seafood"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 24,
+        "neighbourhood": "Soarelui",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Gh. Lazar, nr 55"
+    },
+    {
+        "id": 34,
+        "name": "RESTAURANT 34",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Duck",
+            "Pork",
+            "Chicken",
+            "Turkey",
+            "Fish",
+            "Lamb",
+            "Seafood"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 86,
+        "neighbourhood": "Aradului",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Bocsei, nr 92"
+    },
+    {
+        "id": 35,
+        "name": "RESTAURANT 35",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Duck",
+            "Fish",
+            "Seafood",
+            "Chicken"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 53,
+        "neighbourhood": "Aradului",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Olteniei, nr 53"
+    },
+    {
+        "id": 36,
+        "name": "RESTAURANT 36",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Duck"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 149,
+        "neighbourhood": "Fabric",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Jozsef Attila, nr 60"
+    },
+    {
+        "id": 37,
+        "name": "RESTAURANT 37",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Turkey",
+            "Pork",
+            "Seafood",
+            "Fish",
+            "Lamb",
+            "Duck"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 100,
+        "neighbourhood": "Sagului",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Victor Babes, nr 68"
+    },
+    {
+        "id": 38,
+        "name": "RESTAURANT 38",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Duck",
+            "Fish",
+            "Seafood"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 100,
+        "neighbourhood": "Ronat",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Turnului, nr 52"
+    },
+    {
+        "id": 39,
+        "name": "RESTAURANT 39",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Turkey",
+            "Lamb",
+            "Duck",
+            "Pork",
+            "Chicken",
+            "Seafood",
+            "Beef",
+            "Fish"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 45,
+        "neighbourhood": "Fabric",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Papiu Ilarian, nr 96"
+    },
+    {
+        "id": 40,
+        "name": "RESTAURANT 40",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 186,
+        "neighbourhood": "Mehala",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Prof. Dr. M. Ichim, nr 13"
+    },
+    {
+        "id": 41,
+        "name": "RESTAURANT 41",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Seafood",
+            "Lamb",
+            "Fish"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 171,
+        "neighbourhood": "Mehala",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Taras Shevchenko, nr 38"
+    },
+    {
+        "id": 42,
+        "name": "RESTAURANT 42",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Turkey",
+            "Duck",
+            "Pork"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 79,
+        "neighbourhood": "Soarelui",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Dumitru Pacurariu, nr 71"
+    },
+    {
+        "id": 43,
+        "name": "RESTAURANT 43",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Duck",
+            "Fish"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 23,
+        "neighbourhood": "Fabric",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Vanatorilor, nr 20"
+    },
+    {
+        "id": 44,
+        "name": "RESTAURANT 44",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Seafood",
+            "Duck",
+            "Pork",
+            "Lamb",
+            "Beef"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 54,
+        "neighbourhood": "Modern",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Vanatorilor, nr 81"
+    },
+    {
+        "id": 45,
+        "name": "RESTAURANT 45",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Duck",
+            "Fish",
+            "Lamb",
+            "Seafood",
+            "Beef",
+            "Turkey"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 141,
+        "neighbourhood": "Ronat",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Pictor Nagy Imre, nr 39"
+    },
+    {
+        "id": 46,
+        "name": "RESTAURANT 46",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Lamb",
+            "Pork",
+            "Chicken",
+            "Seafood",
+            "Duck",
+            "Beef",
+            "Turkey"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 40,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Milcovului, nr 57"
+    },
+    {
+        "id": 47,
+        "name": "RESTAURANT 47",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Lamb",
+            "Seafood",
+            "Beef",
+            "Pork",
+            "Fish",
+            "Chicken",
+            "Duck"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 111,
+        "neighbourhood": "Blascovici",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Pogoanelor, nr 100"
+    },
+    {
+        "id": 48,
+        "name": "RESTAURANT 48",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Turkey"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 193,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Berevoiestilor, nr 62"
+    },
+    {
+        "id": 49,
+        "name": "RESTAURANT 49",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Turkey",
+            "Pork"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 134,
+        "neighbourhood": "Freidorf",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Aurel Suciu, nr 59"
+    },
+    {
+        "id": 50,
+        "name": "RESTAURANT 50",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Beef",
+            "Chicken",
+            "Pork",
+            "Lamb",
+            "Seafood"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 181,
+        "neighbourhood": "Lipovei",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Victor Babes, nr 62"
+    },
+    {
+        "id": 51,
+        "name": "RESTAURANT 51",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Fish",
+            "Chicken",
+            "Seafood",
+            "Turkey",
+            "Duck"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 86,
+        "neighbourhood": "Lipovei",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Flamura Rosie, nr 32"
+    },
+    {
+        "id": 52,
+        "name": "RESTAURANT 52",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Duck",
+            "Chicken",
+            "Fish",
+            "Seafood",
+            "Beef",
+            "Lamb"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 44,
+        "neighbourhood": "Torontalului",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Bulevardul Take Ionescu, nr 27"
+    },
+    {
+        "id": 53,
+        "name": "RESTAURANT 53",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Duck"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 125,
+        "neighbourhood": "Modern",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Badea Cartan, nr 1"
+    },
+    {
+        "id": 54,
+        "name": "RESTAURANT 54",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Duck"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 90,
+        "neighbourhood": "Dacia",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Bulevardul Take Ionescu, nr 90"
+    },
+    {
+        "id": 55,
+        "name": "RESTAURANT 55",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Fish",
+            "Duck",
+            "Pork",
+            "Beef",
+            "Turkey",
+            "Seafood",
+            "Lamb",
+            "Chicken"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 115,
+        "neighbourhood": "Soarelui",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Olteniei, nr 27"
+    },
+    {
+        "id": 56,
+        "name": "RESTAURANT 56",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Chicken",
+            "Beef",
+            "Duck",
+            "Seafood",
+            "Pork"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 137,
+        "neighbourhood": "Aradului",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Sannicolaul Mare, nr 94"
+    },
+    {
+        "id": 57,
+        "name": "RESTAURANT 57",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Turkey"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 123,
+        "neighbourhood": "Dacia",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Poienelor, nr 82"
+    },
+    {
+        "id": 58,
+        "name": "RESTAURANT 58",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Pork",
+            "Duck"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 148,
+        "neighbourhood": "Aradului",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Tudor Arghezi, nr 62"
+    },
+    {
+        "id": 59,
+        "name": "RESTAURANT 59",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Duck",
+            "Turkey",
+            "Pork",
+            "Chicken",
+            "Lamb"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 34,
+        "neighbourhood": "Lipovei",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Jozsef Attila, nr 22"
+    },
+    {
+        "id": 60,
+        "name": "RESTAURANT 60",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Beef",
+            "Seafood",
+            "Fish",
+            "Chicken",
+            "Turkey",
+            "Pork",
+            "Duck",
+            "Lamb"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 70,
+        "neighbourhood": "Lipovei",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Taras Shevchenko, nr 92"
+    },
+    {
+        "id": 61,
+        "name": "RESTAURANT 61",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Beef"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 47,
+        "neighbourhood": "Modern",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Bulevardul Vasile Parvan, nr 7"
+    },
+    {
+        "id": 62,
+        "name": "RESTAURANT 62",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Beef"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 97,
+        "neighbourhood": "Fabric",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Taras Shevchenko, nr 11"
+    },
+    {
+        "id": 63,
+        "name": "RESTAURANT 63",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Lamb",
+            "Turkey"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 101,
+        "neighbourhood": "Aradului",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Petru Maior, nr 31"
+    },
+    {
+        "id": 64,
+        "name": "RESTAURANT 64",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Pork",
+            "Chicken",
+            "Beef"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 146,
+        "neighbourhood": "Lipovei",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Prof. Dr. M. Ichim, nr 55"
+    },
+    {
+        "id": 65,
+        "name": "RESTAURANT 65",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Seafood",
+            "Turkey",
+            "Lamb",
+            "Duck",
+            "Beef",
+            "Chicken",
+            "Pork",
+            "Fish"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 81,
+        "neighbourhood": "Soarelui",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Tiberiu Brediceanu, nr 77"
+    },
+    {
+        "id": 66,
+        "name": "RESTAURANT 66",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Beef",
+            "Pork"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 154,
+        "neighbourhood": "Lipovei",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Sfantul Gheorghe, nr 4"
+    },
+    {
+        "id": 67,
+        "name": "RESTAURANT 67",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Turkey",
+            "Fish",
+            "Duck",
+            "Seafood",
+            "Beef",
+            "Pork",
+            "Chicken",
+            "Lamb"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 172,
+        "neighbourhood": "Centru",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Vazul, nr 98"
+    },
+    {
+        "id": 68,
+        "name": "RESTAURANT 68",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Beef",
+            "Pork",
+            "Turkey",
+            "Fish"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 95,
+        "neighbourhood": "Mehala",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Marechal Averescu, nr 83"
+    },
+    {
+        "id": 69,
+        "name": "RESTAURANT 69",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Duck",
+            "Seafood",
+            "Turkey",
+            "Beef",
+            "Fish",
+            "Pork"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 200,
+        "neighbourhood": "Blascovici",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Bulevardul Revolutiei 1989, nr 79"
+    },
+    {
+        "id": 70,
+        "name": "RESTAURANT 70",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Duck",
+            "Lamb",
+            "Fish",
+            "Pork",
+            "Turkey",
+            "Beef",
+            "Seafood"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 120,
+        "neighbourhood": "Soarelui",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Toma Alimos, nr 99"
+    },
+    {
+        "id": 71,
+        "name": "RESTAURANT 71",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Pork",
+            "Seafood",
+            "Chicken",
+            "Duck",
+            "Fish",
+            "Beef"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 88,
+        "neighbourhood": "Balcescu",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Clujului, nr 51"
+    },
+    {
+        "id": 72,
+        "name": "RESTAURANT 72",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Turkey",
+            "Lamb",
+            "Duck",
+            "Seafood"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 130,
+        "neighbourhood": "Girocului",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Plevnei, nr 12"
+    },
+    {
+        "id": 73,
+        "name": "RESTAURANT 73",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Beef"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 129,
+        "neighbourhood": "Centru",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Sfantul Gheorghe, nr 62"
+    },
+    {
+        "id": 74,
+        "name": "RESTAURANT 74",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Beef",
+            "Seafood"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 166,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Fagetului, nr 33"
+    },
+    {
+        "id": 75,
+        "name": "RESTAURANT 75",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Lamb",
+            "Duck",
+            "Beef",
+            "Fish",
+            "Pork",
+            "Chicken",
+            "Turkey"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 96,
+        "neighbourhood": "Balcescu",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Vanatorilor, nr 12"
+    },
+    {
+        "id": 76,
+        "name": "RESTAURANT 76",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Lamb",
+            "Beef",
+            "Duck",
+            "Seafood",
+            "Pork",
+            "Turkey",
+            "Chicken"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 126,
+        "neighbourhood": "Fabric",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Lirei, nr 34"
+    },
+    {
+        "id": 77,
+        "name": "RESTAURANT 77",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Lamb",
+            "Fish",
+            "Duck",
+            "Beef",
+            "Turkey",
+            "Chicken",
+            "Seafood"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 158,
+        "neighbourhood": "Sagului",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Bulevardul Take Ionescu, nr 1"
+    },
+    {
+        "id": 78,
+        "name": "RESTAURANT 78",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Duck"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 123,
+        "neighbourhood": "Freidorf",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Plevnei, nr 53"
+    },
+    {
+        "id": 79,
+        "name": "RESTAURANT 79",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Beef",
+            "Pork"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 175,
+        "neighbourhood": "Modern",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Lacramioarei, nr 82"
+    },
+    {
+        "id": 80,
+        "name": "RESTAURANT 80",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Duck"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 51,
+        "neighbourhood": "Dacia",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Tiberiu Brediceanu, nr 99"
+    },
+    {
+        "id": 81,
+        "name": "RESTAURANT 81",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Pork"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 49,
+        "neighbourhood": "Modern",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Lacramioarei, nr 52"
+    },
+    {
+        "id": 82,
+        "name": "RESTAURANT 82",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Chicken",
+            "Turkey",
+            "Pork",
+            "Lamb"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 39,
+        "neighbourhood": "Torontalului",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Bocsei, nr 14"
+    },
+    {
+        "id": 83,
+        "name": "RESTAURANT 83",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Lamb",
+            "Duck",
+            "Seafood"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 165,
+        "neighbourhood": "Freidorf",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Olteniei, nr 7"
+    },
+    {
+        "id": 84,
+        "name": "RESTAURANT 84",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Pork",
+            "Turkey",
+            "Lamb",
+            "Beef"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 197,
+        "neighbourhood": "Fabric",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Calinesti, nr 25"
+    },
+    {
+        "id": 85,
+        "name": "RESTAURANT 85",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 132,
+        "neighbourhood": "Aradului",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Toma Alimos, nr 21"
+    },
+    {
+        "id": 86,
+        "name": "RESTAURANT 86",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 153,
+        "neighbourhood": "Dacia",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Marechal Averescu, nr 76"
+    },
+    {
+        "id": 87,
+        "name": "RESTAURANT 87",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Duck",
+            "Beef",
+            "Turkey",
+            "Seafood",
+            "Chicken",
+            "Fish",
+            "Lamb",
+            "Pork"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 114,
+        "neighbourhood": "Dacia",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Miorita, nr 1"
+    },
+    {
+        "id": 88,
+        "name": "RESTAURANT 88",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Beef",
+            "Duck",
+            "Seafood",
+            "Turkey",
+            "Lamb",
+            "Fish"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 84,
+        "neighbourhood": "Girocului",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Horea, nr 22"
+    },
+    {
+        "id": 89,
+        "name": "RESTAURANT 89",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 155,
+        "neighbourhood": "Sagului",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Modesta Protopopescu, nr 21"
+    },
+    {
+        "id": 90,
+        "name": "RESTAURANT 90",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood",
+            "Beef",
+            "Chicken"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 52,
+        "neighbourhood": "Lipovei",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Modesta Protopopescu, nr 55"
+    },
+    {
+        "id": 91,
+        "name": "RESTAURANT 91",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Turkey",
+            "Duck",
+            "Seafood",
+            "Lamb",
+            "Fish",
+            "Beef"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 140,
+        "neighbourhood": "Centru",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Baniasa, nr 6"
+    },
+    {
+        "id": 92,
+        "name": "RESTAURANT 92",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Fish",
+            "Lamb"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 64,
+        "neighbourhood": "Dacia",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Curcubeului, nr 18"
+    },
+    {
+        "id": 93,
+        "name": "RESTAURANT 93",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Fish",
+            "Seafood",
+            "Beef",
+            "Chicken",
+            "Duck"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 37,
+        "neighbourhood": "Torontalului",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Curcubeului, nr 87"
+    },
+    {
+        "id": 94,
+        "name": "RESTAURANT 94",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Lamb",
+            "Pork"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 71,
+        "neighbourhood": "Sagului",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Jozsef Attila, nr 77"
+    },
+    {
+        "id": 95,
+        "name": "RESTAURANT 95",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Seafood",
+            "Chicken",
+            "Duck",
+            "Beef"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 131,
+        "neighbourhood": "Girocului",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Roman Ciorogariu, nr 28"
+    },
+    {
+        "id": 96,
+        "name": "RESTAURANT 96",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Pork",
+            "Turkey",
+            "Seafood",
+            "Beef",
+            "Fish"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 57,
+        "neighbourhood": "Fabric",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Torontalului, nr 31"
+    },
+    {
+        "id": 97,
+        "name": "RESTAURANT 97",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Beef"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 139,
+        "neighbourhood": "Lipovei",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Curcubeului, nr 62"
+    },
+    {
+        "id": 98,
+        "name": "RESTAURANT 98",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Beef",
+            "Turkey",
+            "Chicken",
+            "Fish"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 72,
+        "neighbourhood": "Fabric",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Traian Grozavescu, nr 1"
+    },
+    {
+        "id": 99,
+        "name": "RESTAURANT 99",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Pork",
+            "Turkey",
+            "Beef"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 29,
+        "neighbourhood": "Lipovei",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Modesta Protopopescu, nr 53"
+    },
+    {
+        "id": 100,
+        "name": "RESTAURANT 100",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Pork",
+            "Duck",
+            "Chicken",
+            "Turkey"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 38,
+        "neighbourhood": "Dacia",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Prof. Dr. M. Ichim, nr 75"
+    },
+    {
+        "id": 101,
+        "name": "RESTAURANT 101",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Pork",
+            "Duck"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 111,
+        "neighbourhood": "Torontalului",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Steaua, nr 66"
+    },
+    {
+        "id": 102,
+        "name": "RESTAURANT 102",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Duck",
+            "Seafood",
+            "Lamb",
+            "Turkey",
+            "Beef",
+            "Chicken",
+            "Fish"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 151,
+        "neighbourhood": "Balcescu",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Bulevardul Revolutiei 1989, nr 49"
+    },
+    {
+        "id": 103,
+        "name": "RESTAURANT 103",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Fish"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 113,
+        "neighbourhood": "Blascovici",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Bulevardul Revolutiei 1989, nr 73"
+    },
+    {
+        "id": 104,
+        "name": "RESTAURANT 104",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood",
+            "Turkey",
+            "Lamb",
+            "Chicken"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 182,
+        "neighbourhood": "Girocului",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Nicolae Balcescu, nr 91"
+    },
+    {
+        "id": 105,
+        "name": "RESTAURANT 105",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Turkey",
+            "Pork"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 197,
+        "neighbourhood": "Soarelui",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Petru Maior, nr 21"
+    },
+    {
+        "id": 106,
+        "name": "RESTAURANT 106",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Duck",
+            "Seafood",
+            "Lamb"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 82,
+        "neighbourhood": "Sagului",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Steaua, nr 32"
+    },
+    {
+        "id": 107,
+        "name": "RESTAURANT 107",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Chicken",
+            "Turkey",
+            "Seafood",
+            "Lamb",
+            "Pork",
+            "Duck",
+            "Fish"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 66,
+        "neighbourhood": "Centru",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Papiu Ilarian, nr 66"
+    },
+    {
+        "id": 108,
+        "name": "RESTAURANT 108",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Pork",
+            "Chicken",
+            "Lamb",
+            "Turkey",
+            "Fish",
+            "Seafood",
+            "Duck",
+            "Beef"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 184,
+        "neighbourhood": "Dacia",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Bocsei, nr 15"
+    },
+    {
+        "id": 109,
+        "name": "RESTAURANT 109",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Duck"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 88,
+        "neighbourhood": "Dacia",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Miorita, nr 41"
+    },
+    {
+        "id": 110,
+        "name": "RESTAURANT 110",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Turkey",
+            "Duck",
+            "Beef",
+            "Lamb",
+            "Seafood",
+            "Fish",
+            "Pork"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 140,
+        "neighbourhood": "Freidorf",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Fagetului, nr 52"
+    },
+    {
+        "id": 111,
+        "name": "RESTAURANT 111",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Turkey",
+            "Chicken",
+            "Beef",
+            "Duck"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 132,
+        "neighbourhood": "Dacia",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Dinu Lipatti, nr 80"
+    },
+    {
+        "id": 112,
+        "name": "RESTAURANT 112",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Turkey",
+            "Duck",
+            "Beef",
+            "Fish",
+            "Seafood",
+            "Pork",
+            "Chicken"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 73,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Gh. Lazar, nr 75"
+    },
+    {
+        "id": 113,
+        "name": "RESTAURANT 113",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Pork",
+            "Fish",
+            "Chicken",
+            "Seafood"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 124,
+        "neighbourhood": "Fabric",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Vulturilor, nr 14"
+    },
+    {
+        "id": 114,
+        "name": "RESTAURANT 114",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Duck",
+            "Turkey",
+            "Chicken",
+            "Fish"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 180,
+        "neighbourhood": "Torontalului",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Vazul, nr 29"
+    },
+    {
+        "id": 115,
+        "name": "RESTAURANT 115",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Beef",
+            "Turkey"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 150,
+        "neighbourhood": "Modern",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Traian Grozavescu, nr 60"
+    },
+    {
+        "id": 116,
+        "name": "RESTAURANT 116",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Fish",
+            "Pork",
+            "Seafood",
+            "Turkey"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 105,
+        "neighbourhood": "Centru",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Energia Electrica, nr 89"
+    },
+    {
+        "id": 117,
+        "name": "RESTAURANT 117",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Lamb",
+            "Turkey",
+            "Beef",
+            "Duck",
+            "Seafood",
+            "Fish",
+            "Pork"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 88,
+        "neighbourhood": "Lipovei",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Victor Babes, nr 63"
+    },
+    {
+        "id": 118,
+        "name": "RESTAURANT 118",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Seafood",
+            "Pork",
+            "Lamb",
+            "Turkey",
+            "Fish",
+            "Beef"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 74,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Dinu Lipatti, nr 62"
+    },
+    {
+        "id": 119,
+        "name": "RESTAURANT 119",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 183,
+        "neighbourhood": "Sagului",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Calea Aradului, nr 43"
+    },
+    {
+        "id": 120,
+        "name": "RESTAURANT 120",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Pork",
+            "Duck"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 56,
+        "neighbourhood": "Sagului",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Bucovinei, nr 97"
+    },
+    {
+        "id": 121,
+        "name": "RESTAURANT 121",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Seafood"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 56,
+        "neighbourhood": "Centru",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Vazul, nr 20"
+    },
+    {
+        "id": 122,
+        "name": "RESTAURANT 122",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Beef",
+            "Lamb",
+            "Turkey"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 72,
+        "neighbourhood": "Lipovei",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Olteniei, nr 67"
+    },
+    {
+        "id": 123,
+        "name": "RESTAURANT 123",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Turkey",
+            "Pork"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 60,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Dinu Lipatti, nr 97"
+    },
+    {
+        "id": 124,
+        "name": "RESTAURANT 124",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Turkey"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 196,
+        "neighbourhood": "Freidorf",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Constantin Brancusi, nr 82"
+    },
+    {
+        "id": 125,
+        "name": "RESTAURANT 125",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood",
+            "Duck"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 166,
+        "neighbourhood": "Girocului",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Calinesti, nr 12"
+    },
+    {
+        "id": 126,
+        "name": "RESTAURANT 126",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Lamb",
+            "Seafood",
+            "Fish",
+            "Turkey",
+            "Chicken",
+            "Duck"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 115,
+        "neighbourhood": "Soarelui",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Pictor Nagy Imre, nr 81"
+    },
+    {
+        "id": 127,
+        "name": "RESTAURANT 127",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Duck",
+            "Pork",
+            "Seafood",
+            "Fish",
+            "Turkey",
+            "Beef",
+            "Lamb"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 105,
+        "neighbourhood": "Blascovici",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Flamura Rosie, nr 16"
+    },
+    {
+        "id": 128,
+        "name": "RESTAURANT 128",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Seafood",
+            "Pork",
+            "Lamb",
+            "Turkey",
+            "Fish",
+            "Beef",
+            "Chicken",
+            "Duck"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 200,
+        "neighbourhood": "Lipovei",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Olteniei, nr 74"
+    },
+    {
+        "id": 129,
+        "name": "RESTAURANT 129",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 102,
+        "neighbourhood": "Blascovici",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Vulturilor, nr 68"
+    },
+    {
+        "id": 130,
+        "name": "RESTAURANT 130",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Fish",
+            "Seafood",
+            "Chicken"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 43,
+        "neighbourhood": "Torontalului",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Flamura Rosie, nr 47"
+    },
+    {
+        "id": 131,
+        "name": "RESTAURANT 131",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Lamb",
+            "Fish",
+            "Turkey"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 143,
+        "neighbourhood": "Modern",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Lirei, nr 50"
+    },
+    {
+        "id": 132,
+        "name": "RESTAURANT 132",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Duck",
+            "Seafood"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 55,
+        "neighbourhood": "Mehala",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Bocsei, nr 92"
+    },
+    {
+        "id": 133,
+        "name": "RESTAURANT 133",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Duck",
+            "Turkey",
+            "Seafood"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 181,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Baniasa, nr 92"
+    },
+    {
+        "id": 134,
+        "name": "RESTAURANT 134",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Duck",
+            "Seafood",
+            "Pork"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 131,
+        "neighbourhood": "Sagului",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Clujului, nr 69"
+    },
+    {
+        "id": 135,
+        "name": "RESTAURANT 135",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Beef",
+            "Lamb",
+            "Fish",
+            "Chicken"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 80,
+        "neighbourhood": "Sagului",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Torontalului, nr 28"
+    },
+    {
+        "id": 136,
+        "name": "RESTAURANT 136",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Seafood",
+            "Chicken",
+            "Turkey",
+            "Pork",
+            "Duck",
+            "Fish",
+            "Beef",
+            "Lamb"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 187,
+        "neighbourhood": "Torontalului",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Dinu Lipatti, nr 69"
+    },
+    {
+        "id": 137,
+        "name": "RESTAURANT 137",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Beef",
+            "Pork",
+            "Seafood",
+            "Turkey",
+            "Lamb",
+            "Chicken",
+            "Fish",
+            "Duck"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 49,
+        "neighbourhood": "Aradului",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Caransebesului, nr 35"
+    },
+    {
+        "id": 138,
+        "name": "RESTAURANT 138",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Duck",
+            "Seafood",
+            "Pork",
+            "Beef"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 101,
+        "neighbourhood": "Dacia",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Dinu Lipatti, nr 82"
+    },
+    {
+        "id": 139,
+        "name": "RESTAURANT 139",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Seafood",
+            "Chicken",
+            "Lamb",
+            "Pork"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 144,
+        "neighbourhood": "Girocului",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Gh. Lazar, nr 35"
+    },
+    {
+        "id": 140,
+        "name": "RESTAURANT 140",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood",
+            "Duck",
+            "Fish",
+            "Beef",
+            "Pork",
+            "Chicken"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 76,
+        "neighbourhood": "Torontalului",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Aristide Demetriade, nr 28"
+    },
+    {
+        "id": 141,
+        "name": "RESTAURANT 141",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Pork",
+            "Lamb",
+            "Duck",
+            "Turkey"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 155,
+        "neighbourhood": "Aradului",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Filipescu, nr 79"
+    },
+    {
+        "id": 142,
+        "name": "RESTAURANT 142",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Lamb",
+            "Seafood"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 90,
+        "neighbourhood": "Dacia",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Cetatii, nr 55"
+    },
+    {
+        "id": 143,
+        "name": "RESTAURANT 143",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Seafood",
+            "Beef",
+            "Duck",
+            "Chicken",
+            "Turkey",
+            "Lamb",
+            "Fish"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 45,
+        "neighbourhood": "Blascovici",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Roman Ciorogariu, nr 80"
+    },
+    {
+        "id": 144,
+        "name": "RESTAURANT 144",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Beef",
+            "Turkey",
+            "Seafood",
+            "Pork",
+            "Duck",
+            "Chicken"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 64,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Baniasa, nr 96"
+    },
+    {
+        "id": 145,
+        "name": "RESTAURANT 145",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Duck"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 58,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Tudor Arghezi, nr 92"
+    },
+    {
+        "id": 146,
+        "name": "RESTAURANT 146",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Seafood",
+            "Duck"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 168,
+        "neighbourhood": "Dacia",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Papiu Ilarian, nr 50"
+    },
+    {
+        "id": 147,
+        "name": "RESTAURANT 147",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Lamb"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 124,
+        "neighbourhood": "Modern",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Poienelor, nr 43"
+    },
+    {
+        "id": 148,
+        "name": "RESTAURANT 148",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Duck",
+            "Turkey",
+            "Seafood",
+            "Beef",
+            "Lamb",
+            "Fish",
+            "Chicken",
+            "Pork"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 82,
+        "neighbourhood": "Torontalului",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Bucovinei, nr 8"
+    },
+    {
+        "id": 149,
+        "name": "RESTAURANT 149",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Duck",
+            "Lamb",
+            "Fish",
+            "Pork",
+            "Beef",
+            "Seafood"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 127,
+        "neighbourhood": "Fabric",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Petru Maior, nr 62"
+    },
+    {
+        "id": 150,
+        "name": "RESTAURANT 150",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Lamb",
+            "Duck",
+            "Fish"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 78,
+        "neighbourhood": "Soarelui",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Milcovului, nr 41"
+    },
+    {
+        "id": 151,
+        "name": "RESTAURANT 151",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood",
+            "Duck"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 95,
+        "neighbourhood": "Fabric",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Bulevardul Vasile Parvan, nr 87"
+    },
+    {
+        "id": 152,
+        "name": "RESTAURANT 152",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Turkey"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 187,
+        "neighbourhood": "Ronat",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Bulevardul Revolutiei 1989, nr 28"
+    },
+    {
+        "id": 153,
+        "name": "RESTAURANT 153",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Fish"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 138,
+        "neighbourhood": "Soarelui",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Episcop Iosif Papp, nr 3"
+    },
+    {
+        "id": 154,
+        "name": "RESTAURANT 154",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Beef",
+            "Turkey",
+            "Pork",
+            "Lamb",
+            "Chicken",
+            "Fish",
+            "Duck"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 41,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Gheorghe Munteanu, nr 22"
+    },
+    {
+        "id": 155,
+        "name": "RESTAURANT 155",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Pork",
+            "Fish",
+            "Turkey"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 175,
+        "neighbourhood": "Centru",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Armoniei, nr 55"
+    },
+    {
+        "id": 156,
+        "name": "RESTAURANT 156",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Pork",
+            "Duck"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 105,
+        "neighbourhood": "Fabric",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Bulevardul Vasile Parvan, nr 82"
+    },
+    {
+        "id": 157,
+        "name": "RESTAURANT 157",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Chicken",
+            "Seafood",
+            "Lamb"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 42,
+        "neighbourhood": "Fabric",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Baniasa, nr 22"
+    },
+    {
+        "id": 158,
+        "name": "RESTAURANT 158",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Turkey",
+            "Pork",
+            "Lamb"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 121,
+        "neighbourhood": "Blascovici",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Turnului, nr 37"
+    },
+    {
+        "id": 159,
+        "name": "RESTAURANT 159",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood",
+            "Beef"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 168,
+        "neighbourhood": "Freidorf",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Bulevardul Revolutiei 1989, nr 1"
+    },
+    {
+        "id": 160,
+        "name": "RESTAURANT 160",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Fish",
+            "Beef"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 64,
+        "neighbourhood": "Lipovei",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Pacii, nr 57"
+    },
+    {
+        "id": 161,
+        "name": "RESTAURANT 161",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Duck",
+            "Fish",
+            "Seafood",
+            "Beef",
+            "Lamb",
+            "Chicken",
+            "Pork",
+            "Turkey"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 142,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Victor Babes, nr 38"
+    },
+    {
+        "id": 162,
+        "name": "RESTAURANT 162",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Duck",
+            "Lamb"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 187,
+        "neighbourhood": "Dacia",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Poienelor, nr 42"
+    },
+    {
+        "id": 163,
+        "name": "RESTAURANT 163",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Pork",
+            "Beef"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 137,
+        "neighbourhood": "Dacia",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Vulturilor, nr 52"
+    },
+    {
+        "id": 164,
+        "name": "RESTAURANT 164",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Pork",
+            "Beef",
+            "Chicken"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 123,
+        "neighbourhood": "Balcescu",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Victor Babes, nr 96"
+    },
+    {
+        "id": 165,
+        "name": "RESTAURANT 165",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 113,
+        "neighbourhood": "Girocului",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Roman Ciorogariu, nr 73"
+    },
+    {
+        "id": 166,
+        "name": "RESTAURANT 166",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Seafood",
+            "Fish",
+            "Beef",
+            "Chicken"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 91,
+        "neighbourhood": "Blascovici",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Parcului, nr 90"
+    },
+    {
+        "id": 167,
+        "name": "RESTAURANT 167",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Beef",
+            "Seafood",
+            "Lamb",
+            "Fish",
+            "Pork",
+            "Duck"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 76,
+        "neighbourhood": "Soarelui",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Jozsef Attila, nr 81"
+    },
+    {
+        "id": 168,
+        "name": "RESTAURANT 168",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Lamb",
+            "Duck"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 179,
+        "neighbourhood": "Freidorf",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Lacramioarei, nr 23"
+    },
+    {
+        "id": 169,
+        "name": "RESTAURANT 169",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood",
+            "Pork",
+            "Lamb"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 169,
+        "neighbourhood": "Sagului",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Aurel Suciu, nr 98"
+    },
+    {
+        "id": 170,
+        "name": "RESTAURANT 170",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 51,
+        "neighbourhood": "Aradului",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Caransebesului, nr 67"
+    },
+    {
+        "id": 171,
+        "name": "RESTAURANT 171",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Duck",
+            "Turkey"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 77,
+        "neighbourhood": "Torontalului",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Paltinisului, nr 20"
+    },
+    {
+        "id": 172,
+        "name": "RESTAURANT 172",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Fish",
+            "Seafood",
+            "Beef",
+            "Pork"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 162,
+        "neighbourhood": "Blascovici",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Sinaia, nr 55"
+    },
+    {
+        "id": 173,
+        "name": "RESTAURANT 173",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Seafood",
+            "Turkey",
+            "Beef",
+            "Fish",
+            "Duck",
+            "Lamb",
+            "Chicken",
+            "Pork"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 181,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Horea, nr 89"
+    },
+    {
+        "id": 174,
+        "name": "RESTAURANT 174",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Beef",
+            "Turkey",
+            "Seafood",
+            "Chicken",
+            "Duck",
+            "Fish",
+            "Pork"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 106,
+        "neighbourhood": "Aradului",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Calinesti, nr 64"
+    },
+    {
+        "id": 175,
+        "name": "RESTAURANT 175",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Duck",
+            "Beef",
+            "Pork",
+            "Fish",
+            "Turkey",
+            "Lamb"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 68,
+        "neighbourhood": "Modern",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Timisul de Sus, nr 18"
+    },
+    {
+        "id": 176,
+        "name": "RESTAURANT 176",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Turkey",
+            "Beef",
+            "Seafood",
+            "Lamb",
+            "Duck",
+            "Fish"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 126,
+        "neighbourhood": "Lipovei",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Steaua, nr 25"
+    },
+    {
+        "id": 177,
+        "name": "RESTAURANT 177",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Beef",
+            "Fish",
+            "Lamb",
+            "Chicken",
+            "Turkey",
+            "Duck",
+            "Seafood"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 28,
+        "neighbourhood": "Freidorf",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Miorita, nr 70"
+    },
+    {
+        "id": 178,
+        "name": "RESTAURANT 178",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Seafood"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 31,
+        "neighbourhood": "Modern",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Victor Babes, nr 92"
+    },
+    {
+        "id": 179,
+        "name": "RESTAURANT 179",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Fish",
+            "Seafood"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 171,
+        "neighbourhood": "Soarelui",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Calinesti, nr 49"
+    },
+    {
+        "id": 180,
+        "name": "RESTAURANT 180",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Turkey",
+            "Fish",
+            "Chicken",
+            "Beef",
+            "Pork",
+            "Seafood",
+            "Lamb"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 139,
+        "neighbourhood": "Aradului",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Raului, nr 22"
+    },
+    {
+        "id": 181,
+        "name": "RESTAURANT 181",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Seafood",
+            "Duck",
+            "Fish",
+            "Chicken"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 84,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Vanatorilor, nr 50"
+    },
+    {
+        "id": 182,
+        "name": "RESTAURANT 182",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Pork",
+            "Duck"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 58,
+        "neighbourhood": "Ronat",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Sfantul Gheorghe, nr 89"
+    },
+    {
+        "id": 183,
+        "name": "RESTAURANT 183",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Pork"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 90,
+        "neighbourhood": "Sagului",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Toma Alimos, nr 76"
+    },
+    {
+        "id": 184,
+        "name": "RESTAURANT 184",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood",
+            "Pork",
+            "Fish",
+            "Turkey",
+            "Beef"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 96,
+        "neighbourhood": "Aradului",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Paltinisului, nr 56"
+    },
+    {
+        "id": 185,
+        "name": "RESTAURANT 185",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Duck",
+            "Chicken"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 43,
+        "neighbourhood": "Centru",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Filipescu, nr 96"
+    },
+    {
+        "id": 186,
+        "name": "RESTAURANT 186",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Beef"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 42,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Clujului, nr 49"
+    },
+    {
+        "id": 187,
+        "name": "RESTAURANT 187",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Seafood",
+            "Lamb",
+            "Pork",
+            "Beef",
+            "Fish",
+            "Chicken"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 69,
+        "neighbourhood": "Modern",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Marasesti, nr 89"
+    },
+    {
+        "id": 188,
+        "name": "RESTAURANT 188",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Seafood",
+            "Chicken",
+            "Pork",
+            "Fish",
+            "Duck",
+            "Turkey"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 127,
+        "neighbourhood": "Ronat",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Vaida Voievod, nr 18"
+    },
+    {
+        "id": 189,
+        "name": "RESTAURANT 189",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Turkey",
+            "Lamb",
+            "Beef",
+            "Chicken"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 85,
+        "neighbourhood": "Modern",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Timisul de Sus, nr 45"
+    },
+    {
+        "id": 190,
+        "name": "RESTAURANT 190",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Fish",
+            "Duck"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 34,
+        "neighbourhood": "Torontalului",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Modesta Protopopescu, nr 80"
+    },
+    {
+        "id": 191,
+        "name": "RESTAURANT 191",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Turkey",
+            "Pork"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 197,
+        "neighbourhood": "Lipovei",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Prof. Dr. M. Ichim, nr 9"
+    },
+    {
+        "id": 192,
+        "name": "RESTAURANT 192",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Fish",
+            "Duck",
+            "Beef",
+            "Turkey",
+            "Seafood",
+            "Pork"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 112,
+        "neighbourhood": "Mehala",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Clujului, nr 35"
+    },
+    {
+        "id": 193,
+        "name": "RESTAURANT 193",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Duck",
+            "Seafood",
+            "Lamb",
+            "Pork",
+            "Turkey",
+            "Chicken",
+            "Fish"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 142,
+        "neighbourhood": "Blascovici",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Jozsef Attila, nr 23"
+    },
+    {
+        "id": 194,
+        "name": "RESTAURANT 194",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Seafood",
+            "Chicken",
+            "Turkey"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 196,
+        "neighbourhood": "Ronat",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Luminisului, nr 67"
+    },
+    {
+        "id": 195,
+        "name": "RESTAURANT 195",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Lamb",
+            "Pork"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 102,
+        "neighbourhood": "Modern",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Luminisului, nr 14"
+    },
+    {
+        "id": 196,
+        "name": "RESTAURANT 196",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Duck"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 76,
+        "neighbourhood": "Soarelui",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Paltinisului, nr 64"
+    },
+    {
+        "id": 197,
+        "name": "RESTAURANT 197",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Pork",
+            "Seafood",
+            "Turkey",
+            "Lamb"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 105,
+        "neighbourhood": "Fabric",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Poienelor, nr 66"
+    },
+    {
+        "id": 198,
+        "name": "RESTAURANT 198",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Turkey",
+            "Beef",
+            "Fish",
+            "Chicken",
+            "Lamb",
+            "Duck",
+            "Seafood",
+            "Pork"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 164,
+        "neighbourhood": "Balcescu",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Paltinisului, nr 41"
+    },
+    {
+        "id": 199,
+        "name": "RESTAURANT 199",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Duck",
+            "Turkey",
+            "Beef",
+            "Seafood"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 56,
+        "neighbourhood": "Mehala",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Nicolae Balcescu, nr 80"
+    },
+    {
+        "id": 200,
+        "name": "RESTAURANT 200",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Pork"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 143,
+        "neighbourhood": "Fabric",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Flamura Rosie, nr 42"
+    },
+    {
+        "id": 201,
+        "name": "RESTAURANT 201",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Seafood",
+            "Duck"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 87,
+        "neighbourhood": "Torontalului",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Steaua, nr 10"
+    },
+    {
+        "id": 202,
+        "name": "RESTAURANT 202",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Duck",
+            "Lamb",
+            "Turkey",
+            "Fish",
+            "Pork"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 193,
+        "neighbourhood": "Dacia",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Pogoanelor, nr 56"
+    },
+    {
+        "id": 203,
+        "name": "RESTAURANT 203",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Pork",
+            "Lamb",
+            "Duck"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 90,
+        "neighbourhood": "Dacia",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Curcubeului, nr 28"
+    },
+    {
+        "id": 204,
+        "name": "RESTAURANT 204",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Beef",
+            "Turkey",
+            "Fish",
+            "Lamb",
+            "Duck",
+            "Pork",
+            "Chicken"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 38,
+        "neighbourhood": "Freidorf",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Energia Electrica, nr 49"
+    },
+    {
+        "id": 205,
+        "name": "RESTAURANT 205",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Fish"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 160,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Bulevardul Take Ionescu, nr 13"
+    },
+    {
+        "id": 206,
+        "name": "RESTAURANT 206",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Lamb",
+            "Pork"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 168,
+        "neighbourhood": "Blascovici",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Paltinisului, nr 76"
+    },
+    {
+        "id": 207,
+        "name": "RESTAURANT 207",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Lamb",
+            "Turkey",
+            "Duck",
+            "Chicken",
+            "Beef",
+            "Fish"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 159,
+        "neighbourhood": "Girocului",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Dinu Lipatti, nr 50"
+    },
+    {
+        "id": 208,
+        "name": "RESTAURANT 208",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Fish",
+            "Pork",
+            "Turkey",
+            "Seafood",
+            "Beef"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 51,
+        "neighbourhood": "Lipovei",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Steaua, nr 83"
+    },
+    {
+        "id": 209,
+        "name": "RESTAURANT 209",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Turkey",
+            "Lamb",
+            "Duck"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 176,
+        "neighbourhood": "Freidorf",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Milcovului, nr 62"
+    },
+    {
+        "id": 210,
+        "name": "RESTAURANT 210",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Fish",
+            "Pork",
+            "Chicken"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 75,
+        "neighbourhood": "Balcescu",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Parcului, nr 77"
+    },
+    {
+        "id": 211,
+        "name": "RESTAURANT 211",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Duck",
+            "Beef"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 117,
+        "neighbourhood": "Dacia",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": true,
+        "streetName": "Strada Dumitru Pacurariu, nr 27"
+    },
+    {
+        "id": 212,
+        "name": "RESTAURANT 212",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood",
+            "Fish"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 129,
+        "neighbourhood": "Aradului",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Calinesti, nr 80"
+    },
+    {
+        "id": 213,
+        "name": "RESTAURANT 213",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Turkey",
+            "Fish",
+            "Lamb"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 164,
+        "neighbourhood": "Blascovici",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Luminisului, nr 6"
+    },
+    {
+        "id": 214,
+        "name": "RESTAURANT 214",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Beef",
+            "Duck",
+            "Lamb",
+            "Turkey",
+            "Pork",
+            "Chicken"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 160,
+        "neighbourhood": "Sagului",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Constantin Brancusi, nr 2"
+    },
+    {
+        "id": 215,
+        "name": "RESTAURANT 215",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood",
+            "Duck",
+            "Beef",
+            "Lamb",
+            "Turkey"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 54,
+        "neighbourhood": "Soarelui",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Steaua, nr 29"
+    },
+    {
+        "id": 216,
+        "name": "RESTAURANT 216",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Turkey",
+            "Fish",
+            "Duck",
+            "Beef"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 118,
+        "neighbourhood": "Blascovici",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Bucovinei, nr 19"
+    },
+    {
+        "id": 217,
+        "name": "RESTAURANT 217",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Duck"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 197,
+        "neighbourhood": "Blascovici",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Turnului, nr 94"
+    },
+    {
+        "id": 218,
+        "name": "RESTAURANT 218",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Pork",
+            "Turkey",
+            "Duck"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 179,
+        "neighbourhood": "Sagului",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Calinesti, nr 6"
+    },
+    {
+        "id": 219,
+        "name": "RESTAURANT 219",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Pork",
+            "Seafood",
+            "Duck",
+            "Lamb"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 97,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Stinca, nr 92"
+    },
+    {
+        "id": 220,
+        "name": "RESTAURANT 220",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Turkey",
+            "Seafood",
+            "Duck"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 132,
+        "neighbourhood": "Dacia",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Calea Aradului, nr 4"
+    },
+    {
+        "id": 221,
+        "name": "RESTAURANT 221",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Beef"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 149,
+        "neighbourhood": "Freidorf",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Luminisului, nr 95"
+    },
+    {
+        "id": 222,
+        "name": "RESTAURANT 222",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Fish"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 110,
+        "neighbourhood": "Girocului",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Plevnei, nr 80"
+    },
+    {
+        "id": 223,
+        "name": "RESTAURANT 223",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Duck",
+            "Beef",
+            "Turkey"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 75,
+        "neighbourhood": "Balcescu",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Milcovului, nr 27"
+    },
+    {
+        "id": 224,
+        "name": "RESTAURANT 224",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Duck",
+            "Turkey",
+            "Chicken",
+            "Beef",
+            "Fish",
+            "Lamb"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 116,
+        "neighbourhood": "Fabric",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Donath, nr 22"
+    },
+    {
+        "id": 225,
+        "name": "RESTAURANT 225",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Seafood",
+            "Fish",
+            "Duck"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 53,
+        "neighbourhood": "Torontalului",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Oituz, nr 95"
+    },
+    {
+        "id": 226,
+        "name": "RESTAURANT 226",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood",
+            "Chicken",
+            "Pork"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 195,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": true,
+        "rating": 4,
+        "outsideSeating": false,
+        "streetName": "Strada Republicii, nr 14"
+    },
+    {
+        "id": 227,
+        "name": "RESTAURANT 227",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Lamb"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 99,
+        "neighbourhood": "Fabric",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Papiu Ilarian, nr 79"
+    },
+    {
+        "id": 228,
+        "name": "RESTAURANT 228",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Chicken",
+            "Pork",
+            "Lamb",
+            "Beef",
+            "Seafood",
+            "Turkey",
+            "Duck"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 157,
+        "neighbourhood": "Soarelui",
+        "delivery": true,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Dinu Lipatti, nr 99"
+    },
+    {
+        "id": 229,
+        "name": "RESTAURANT 229",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Beef",
+            "Fish",
+            "Seafood",
+            "Chicken",
+            "Turkey"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 66,
+        "neighbourhood": "Ronat",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Aurel Suciu, nr 25"
+    },
+    {
+        "id": 230,
+        "name": "RESTAURANT 230",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Seafood",
+            "Fish",
+            "Beef",
+            "Pork",
+            "Turkey"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 98,
+        "neighbourhood": "Ronat",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Universitatii, nr 86"
+    },
+    {
+        "id": 231,
+        "name": "RESTAURANT 231",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Turkey",
+            "Lamb",
+            "Pork",
+            "Duck",
+            "Beef",
+            "Fish",
+            "Chicken"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 72,
+        "neighbourhood": "Mehala",
+        "delivery": false,
+        "rating": 4,
+        "outsideSeating": true,
+        "streetName": "Strada Flamura Rosie, nr 72"
+    },
+    {
+        "id": 232,
+        "name": "RESTAURANT 232",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood",
+            "Beef",
+            "Fish",
+            "Turkey",
+            "Pork",
+            "Duck",
+            "Chicken",
+            "Lamb"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 20,
+        "neighbourhood": "Freidorf",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Papiu Ilarian, nr 77"
+    },
+    {
+        "id": 233,
+        "name": "RESTAURANT 233",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Seafood",
+            "Beef",
+            "Turkey",
+            "Pork",
+            "Chicken",
+            "Fish",
+            "Duck",
+            "Lamb"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 95,
+        "neighbourhood": "Mehala",
+        "delivery": false,
+        "rating": 3,
+        "outsideSeating": false,
+        "streetName": "Strada Dumitru Pacurariu, nr 15"
+    },
+    {
+        "id": 234,
+        "name": "RESTAURANT 234",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Chicken",
+            "Turkey",
+            "Fish",
+            "Seafood",
+            "Duck",
+            "Lamb",
+            "Beef"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 20,
+        "neighbourhood": "Centru",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Modesta Protopopescu, nr 18"
+    },
+    {
+        "id": 235,
+        "name": "RESTAURANT 235",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Turkey"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 134,
+        "neighbourhood": "Dacia",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Dumitru Pacurariu, nr 68"
+    },
+    {
+        "id": 236,
+        "name": "RESTAURANT 236",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 116,
+        "neighbourhood": "Soarelui",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Horea, nr 57"
+    },
+    {
+        "id": 237,
+        "name": "RESTAURANT 237",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Beef"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 64,
+        "neighbourhood": "Ronat",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Pacii, nr 98"
+    },
+    {
+        "id": 238,
+        "name": "RESTAURANT 238",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Duck",
+            "Turkey",
+            "Chicken",
+            "Pork",
+            "Seafood",
+            "Beef",
+            "Lamb",
+            "Fish"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 102,
+        "neighbourhood": "Blascovici",
+        "delivery": true,
+        "rating": 2,
+        "outsideSeating": true,
+        "streetName": "Strada Curcubeului, nr 89"
+    },
+    {
+        "id": 239,
+        "name": "RESTAURANT 239",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Seafood",
+            "Chicken",
+            "Turkey",
+            "Duck"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 196,
+        "neighbourhood": "Balcescu",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Papiu Ilarian, nr 19"
+    },
+    {
+        "id": 240,
+        "name": "RESTAURANT 240",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 39,
+        "neighbourhood": "Dacia",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Berevoiestilor, nr 5"
+    },
+    {
+        "id": 241,
+        "name": "RESTAURANT 241",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Fish",
+            "Beef",
+            "Duck",
+            "Pork",
+            "Turkey",
+            "Chicken",
+            "Lamb",
+            "Seafood"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 24,
+        "neighbourhood": "Fabric",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Milcovului, nr 74"
+    },
+    {
+        "id": 242,
+        "name": "RESTAURANT 242",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Turkey",
+            "Duck",
+            "Chicken",
+            "Seafood"
+        ],
+        "specific": "Traditional",
+        "averageMealPrice": 194,
+        "neighbourhood": "Balcescu",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Calea Aradului, nr 84"
+    },
+    {
+        "id": 243,
+        "name": "RESTAURANT 243",
+        "vegan": true,
+        "vegetarian": false,
+        "meatType": [
+            "Lamb",
+            "Duck",
+            "Beef",
+            "Chicken",
+            "Pork",
+            "Fish"
+        ],
+        "specific": "Serbian",
+        "averageMealPrice": 175,
+        "neighbourhood": "Girocului",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Fagetului, nr 49"
+    },
+    {
+        "id": 244,
+        "name": "RESTAURANT 244",
+        "vegan": false,
+        "vegetarian": false,
+        "meatType": [
+            "Fish",
+            "Pork",
+            "Duck"
+        ],
+        "specific": "Asian",
+        "averageMealPrice": 179,
+        "neighbourhood": "Soarelui",
+        "delivery": true,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Constantin Brancusi, nr 3"
+    },
+    {
+        "id": 245,
+        "name": "RESTAURANT 245",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Seafood",
+            "Beef",
+            "Duck",
+            "Fish",
+            "Turkey",
+            "Pork",
+            "Lamb",
+            "Chicken"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 85,
+        "neighbourhood": "Sagului",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": false,
+        "streetName": "Strada Badea Cartan, nr 90"
+    },
+    {
+        "id": 246,
+        "name": "RESTAURANT 246",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Lamb",
+            "Seafood",
+            "Chicken",
+            "Beef",
+            "Pork"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 21,
+        "neighbourhood": "Fabric",
+        "delivery": false,
+        "rating": 2,
+        "outsideSeating": false,
+        "streetName": "Strada Raului, nr 8"
+    },
+    {
+        "id": 247,
+        "name": "RESTAURANT 247",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Lamb",
+            "Duck",
+            "Turkey",
+            "Pork",
+            "Fish",
+            "Beef",
+            "Seafood",
+            "Chicken"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 178,
+        "neighbourhood": "Blascovici",
+        "delivery": false,
+        "rating": 5,
+        "outsideSeating": false,
+        "streetName": "Strada Roman Ciorogariu, nr 36"
+    },
+    {
+        "id": 248,
+        "name": "RESTAURANT 248",
+        "vegan": false,
+        "vegetarian": true,
+        "meatType": [
+            "Seafood",
+            "Duck",
+            "Chicken",
+            "Lamb",
+            "Pork",
+            "Beef",
+            "Fish"
+        ],
+        "specific": "Italian",
+        "averageMealPrice": 151,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": true,
+        "rating": 5,
+        "outsideSeating": true,
+        "streetName": "Strada Horea, nr 49"
+    },
+    {
+        "id": 249,
+        "name": "RESTAURANT 249",
+        "vegan": true,
+        "vegetarian": true,
+        "meatType": [
+            "Pork",
+            "Duck",
+            "Beef",
+            "Fish",
+            "Chicken"
+        ],
+        "specific": "Latin american",
+        "averageMealPrice": 54,
+        "neighbourhood": "Circumvalatiunii",
+        "delivery": false,
+        "rating": 1,
+        "outsideSeating": true,
+        "streetName": "Strada Traian Grozavescu, nr 38"
+    }
+]
